@@ -1,6 +1,5 @@
 defmodule Day03 do
-  @symbols ["+", "*", "-", "/", "=", "%", "&", "$", "#", "@"]
-  # ~w(+ * - / = % & $ # @)
+  @symbols ~w(+ * - / = % & $ # @)
 
   # Read input as lines
   defp read_input do
